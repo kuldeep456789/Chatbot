@@ -15,7 +15,7 @@ A modern AI-powered chat application built with **Stream Chat**, **OpenAI**, and
 
 ## 🏗️ Architecture
 
-### Backend (`nodejs-ai-assistant/`)
+### Backend 
 
 - **Node.js/Express** server
 - **Stream Chat** server-side integration
@@ -23,7 +23,7 @@ A modern AI-powered chat application built with **Stream Chat**, **OpenAI**, and
 - **Tavily API** for web search functionality
 - Agent management system with automatic cleanup
 
-### Frontend (`react-stream-ai-assistant/`)
+### Frontend 
 
 - **React** with TypeScript
 - **Stream Chat React** components
@@ -44,7 +44,7 @@ A modern AI-powered chat application built with **Stream Chat**, **OpenAI**, and
 
 ```bash
 git clone <your-repository-url>
-cd chat-ai-app
+cd chatbot
 ```
 
 ### 2. Backend Setup
@@ -64,7 +64,7 @@ npm install
 Create environment file by copying the example:
 
 ```bash
-cp .env.example .env
+cp .env
 ```
 
 Configure your `.env` file with the following keys:
@@ -98,7 +98,7 @@ npm install
 Create environment file:
 
 ```bash
-cp .env.example .env
+cp .env
 ```
 
 Configure your `.env` file:
@@ -138,16 +138,16 @@ VITE_BACKEND_URL=http://localhost:3000
 ### Start the Backend Server
 
 ```bash
-cd nodejs-ai-assistant
+cd backend
 npm run dev
 ```
 
-The backend will run on `http://localhost:3000`
+The backend will run on `http://localhost:8050`
 
 ### Start the Frontend Application
 
 ```bash
-cd react-stream-ai-assistant
+cd frontend
 npm run dev
 ```
 
